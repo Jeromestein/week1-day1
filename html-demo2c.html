@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Web Page</title>
+    </head>
+    <body>
+        <div id="container">
+            <!-- brand of the website -->   
+            <header>My Web Site Brand</header>
+            <!-- main navigation  -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">About</a></li>
+                    <li><a href="html-demo2c.html">Contact</a></li>
+                </ul>
+            </nav> <!-- end of main navigation -->  
+            <!-- main content -->
+            <main>
+                <h1>My First Heading</h1>
+                <p>My first paragraph.</p>
+                <img src="images/central_park.jpg" alt="Central Park" width="500">
+
+                <form action="signup" method="post">
+                    <fieldset>
+                        <legend>User personal information</legend>
+                        <label>Enter your full name</label><br>
+                        <input type="text" name="name"><br>
+                        <label>Enter your email</label><br>
+                        <input type="email" name="email"><br>
+                        <label>Enter your phone number</label><br>
+                        <input type="text" name="phone"><br>
+                        <label>Select your gender</label><br>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female<br/>
+                        <br>
+                        <label>How should we contact you?</label><br>
+                        <select name="contact">
+                            <option>Email</option>
+                            <option>Phone</option>
+                        </select><br>
+                        <br>Tell us the reason of your visit today:<br>
+                        <textarea rows="5" cols="30"></textarea><br>
+                        <input type="submit" value="sign-up">
+                    </fieldset>
+                </form>
+            </main> <!-- end of main content -->
+            <!-- footer -->
+            <footer>&copy; Copyright 2025</footer>
+            
+        </div> <!-- end of container -->
+    </body>
+</html>
