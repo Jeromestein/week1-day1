@@ -8,19 +8,60 @@
                 background: url(images/central_park.jpg) 0 -200px no-repeat;
                 background-size: 1500px;
                 height: 400px;
+                padding-top: 100px;
+                padding-left: 100px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            li {
+                list-style-type: none;
+                display: inline;      
+                padding: 0 20px;
+            }
+            li a {
+                text-decoration: none;
+            }
+            li a:visited {
+                color: #818db3;  /* After click */
+            }
+            li a:hover {
+                color: #333;  /* Mouse over */
+            }
+            li a:active {
+                color: #753a30;  /* Mouse down */
+            }
+            nav {
+                background-color: rgb(255, 245, 238);
+                height: 50px;
+                padding-top: 2px;
+                text-align: center;
+            }
+            main {
+                height: 400px;  /* give some height to get a better sense of how the page could look like */
+            }
+            main h1 {
+                color: rgb(129, 141, 179);  /* rgb(129, 141, 179) */
+                font-family: arial;
+            }
+            footer {
+                height: 40px;
+                background-color: rgb(129, 141, 179);
+                text-align: center;
+                padding-top: 20px;
+                color: rgb(211, 218, 240);
             }
         </style>
     </head>
     <body>
         <div id="container">
             <!-- brand of the website -->   
-            <header>My Web Site Brand</header>
+            <header style="font-size: 60px; color: #fff;">My Web Site Brand</header>
             <!-- main navigation  -->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="page2.html">About</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li>Gallery</li>
                     <li><a href="html-demo2c.html">Contact</a></li>
                 </ul>
             </nav> <!-- end of main navigation -->  
